@@ -1,0 +1,11 @@
+# IDEs and editors
+.classpath
+.project
+/.settings/
+/.vscode/
+/target/
+/.vim/
+
+.DS_Store
+Thumbs.db
+
