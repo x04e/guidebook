@@ -13,6 +13,11 @@
     <artifactId>gbclient</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>gbclient</name>
+    <description>[${git.commit.id.describe}] Guidebook client</description>
+
+    <build>
+        <finalName>${project.artifactId}-${git.commit.id.describe}</finalName>
+    </build>
 
     <dependencies>
         <dependency>
